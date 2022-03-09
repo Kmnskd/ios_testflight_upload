@@ -1,6 +1,6 @@
 FROM python:3.8
 
-COPY ios_testflight_upload /usr/local/ios_testflight_upload
+COPY srv /usr/local/ios_testflight_upload/src
 
 WORKDIR /usr/local/ios_testflight_upload/src
 
