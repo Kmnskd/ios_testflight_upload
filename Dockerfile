@@ -1,8 +1,8 @@
 FROM python:3.8
 
-COPY src /usr/local/ios_testflight/srv
+COPY ios_testflight_upload /usr/local/ios_testflight_upload
 
-WORKDIR /usr/local/ios_testflight/srv
+WORKDIR /usr/local/ios_testflight_upload/src
 
 RUN pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 
