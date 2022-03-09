@@ -1,4 +1,4 @@
-Flask==1.0.3
+flask==2.0.2
 jenkins==1.0.2
 python_jenkins==1.7.0
 gunicorn==20.1.0
