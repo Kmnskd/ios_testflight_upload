@@ -1,4 +1,4 @@
-FROM python:3.8
+FROM python:3.8.10
 
 COPY src /usr/local/ios_testflight_upload/src
 
